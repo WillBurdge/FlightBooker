@@ -1,0 +1,82 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images3.alphacoders.com/823/thumb-1920-82317.jpg);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 10px;
+    text-align: left;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: rgb(21, 191, 21);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(5, 134, 5);
+}
